@@ -8,6 +8,7 @@ import SignInButton from "../signIn-button/signIn";
 const Header = () => {
   const { data: session } = useSession();
   console.log("Session", session);
+
   return (
     <>
       <div className="flex justify-between p-5 border-b-2">
@@ -22,7 +23,7 @@ const Header = () => {
               {" "}
               <SignInButton />
             </span>
-            <HiArrowLeftOnRectangle className="sm:hidden text-[20px]" />
+            <HiArrowLeftOnRectangle className="sm:hidden text-2xl  mt-2 " />
           </div>
           {session && session.user ? (
             <Image
