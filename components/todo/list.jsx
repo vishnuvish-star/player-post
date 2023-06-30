@@ -10,7 +10,7 @@ import {
   updateDoc,
 } from "firebase/firestore";
 
-const ToDo = () => {
+const Crud = () => {
   // firebase stored in variable
   const value = collection(db, "games");
 
@@ -137,4 +137,4 @@ const ToDo = () => {
   );
 };
 
-export default ToDo;
+export default Crud;
