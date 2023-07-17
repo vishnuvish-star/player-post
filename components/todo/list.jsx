@@ -65,7 +65,7 @@ const Crud = () => {
     setGetUpdate(true);
   };
 
-  // update data (update as add data to firestore)
+  // update data (update as add data to firestore
 
   const handleUpdate = async () => {
     const updateData = doc(db, "games", editId);
